@@ -1,0 +1,11 @@
+.itsm-asset-normal {
+	background-color: #98FB98 !important;
+}
+
+.itsm-asset-warehouse {
+	background-color: #FFD700 !important;
+}
+
+.itsm-asset-discarded {
+	background-color: #A9A9A9 !important;
+}

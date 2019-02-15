@@ -1,0 +1,75 @@
+.monitor-tile-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.monitor-tile {
+	background-color: #D3D3D3;
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 225px;
+	display: inline-block;
+	padding: 5px;
+	box-sizing: border-box;
+	flex-direction: column;
+}
+
+.monitor-tile h3 {
+	display: block;
+	width: 100%;
+	background: linear-gradient(#0054a5, #2875c1);
+	color: #FFF;
+	font-weight: 600;
+	padding: 3px;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 1rem;
+}
+
+.monitor-tile .monitor-indicator {
+	margin: auto;
+	display: block;
+	padding: 5px;
+	height: 20px;
+}
+
+.monitor-tile .monitor-notice {
+	display: block;
+	font-weight: 600;
+	text-align: left;
+}
+
+.monitor-tile li {
+	list-style-type: none;
+	font-size: .8rem;
+}
+
+.monitor-tile li span {
+	float: right;
+	font-size: .8rem;
+}
+
+.monitor-app-trouble {
+	font-weight: 600;
+	color: #ffc107;
+	background-color: #DC143C;
+}
+
+.monitor-host-offline, .monitor-app-offline {
+	font-weight: 600;
+	color: #DC143C;
+}
+
+.monitor-countdown {
+	float: right;
+	color: #006699;
+	font-weight: 600;
+}
+
+#monitor-countdown-timer {
+	color: #000;
+	text-decoration: underline;
+	font-weight: 600;
+	font-size: 1.1rem;
+}

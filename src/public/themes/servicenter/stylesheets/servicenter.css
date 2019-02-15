@@ -1,0 +1,57 @@
+.workspace-name {
+	color: #006699;
+	font-weight: 600;
+	font-size: 1.2rem;
+	float: right;
+}
+
+.tool-bar {
+	padding-top: 5px;
+	border-bottom: 1px solid #D3D3D3;
+	padding-bottom: 3px;
+}
+
+.tool-bar select {
+	min-width: 170px;
+}
+
+#workspace-select {
+	float: right;
+}
+
+table.servicedesk-widgets {
+	width: 100%;
+	border-bottom: 1px solid #0054A5;
+	margin-bottom: 5px;
+	border-spacing: 10px;
+	border-collapse: separate;
+	height: 200px;
+}
+
+table.servicedesk-widgets>tbody>tr>td {
+	width: 33%;
+	background-color: #E6E6E6;
+	padding: 5px 10px;
+	vertical-align: top;
+}
+
+table.servicedesk-widgets>tbody>tr>td a {
+	padding-right: 10px;
+}
+
+table.servicedesk-widgets h3{
+	font-weight: 600;
+	font-size: 1.2rem;
+	border-bottom: 1px solid #0054A5;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+
+select.assignee-select option.team {
+	font-weight: bold;
+	padding-left: .5em;
+}
+
+select.assignee-select option.member {
+	padding-left: 2em;
+}

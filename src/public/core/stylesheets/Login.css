@@ -1,0 +1,82 @@
+@import url("Core.css");
+
+* {
+	font-size: 12pt;
+}
+
+body {
+	background-image: url(../media/background.png);
+}
+
+#login-window {
+	display: block;
+	margin: auto;
+	padding: 15px 0px 25px 0px;
+	max-width: 3in;
+	background-color: #D3D3D3;
+	border-top: 10px solid #54A4ED;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	text-align: center;
+	margin-top: 200px;
+}
+
+#login-logo {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 155.633px;
+	height: 120px;
+	background-image: url(../media/icon.svg);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: center;
+}
+
+#login-title {
+	display: block;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#login-window p {
+	padding: 5px;
+	
+}
+
+#login-window input {
+	display: inline-block;
+	border: 1px solid rgba(0,0,0,0.25);
+	border-radius: .2em;
+	padding: .5em .75em;
+	width: 249px;
+	margin: auto;
+	box-sizing: border-box;
+	font-size: .8rem;
+}
+
+#login-window input[type="submit"] {
+	margin-top: 10px;
+	height: 35px;
+	background: #3C3C3C;
+	color: #FFF;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+#login-window input[type="submit"]:hover {
+	background: #5A5A5A;
+}
+
+#notifications {
+	margin-top: 10px;
+	width: 259px;
+	min-width: 259px;
+	position: relative;
+	top: auto;
+}
+
+@media screen and (max-device-height: 800px) {
+	#login-window {
+		margin-top: 20vh;
+	}
+}
